@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Calolator",
+    "slug": "Calolator",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splashicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#90ee90"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#90ee90"
+      },
+      "package": "com.pedro.calolator",
+    },
+    "web": {
+      "favicon": "./assets/images/logo.png"
+    }
+  }
+}
